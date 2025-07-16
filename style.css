@@ -3,3 +3,79 @@
     margin: 0;
     padding: 0;
 }
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+#color-change-button {
+    padding: 15px;
+    font-size: 20px;
+    background-color: dodgerblue;
+    color: white;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px black;
+}
+
+#color-change-button:hover {
+    background-color: aqua;
+    color: black;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#type-here-label {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+#text-box {
+    min-width: 250px;
+    min-height: 50px;
+    font-size: 20px;
+    border-radius: 15px;
+    border: 2px solid black;
+    padding: 5px;
+}
+
+#text-display-para {
+    font-size: 40px;
+    background-color: aqua;
+    min-width: 300px;
+    min-height: 100px;
+    max-width: 400px;
+    border-radius: 15px;
+    padding: 5px;
+    text-align: center;
+    box-shadow: 5px 5px 5px black;
+    word-wrap: break-word;
+}
+
+#original-image {
+    min-width: 600px;
+    min-height: 400px;
+}
+
+#reset-button {
+    padding: 15px;
+    font-size: 20px;
+    background-color: dodgerblue;
+    color: white;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px black;
+}
+
+#reset-button:hover {
+    background-color: aqua;
+    color: black;
+}

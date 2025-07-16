@@ -6,7 +6,16 @@
         <link rel="stylesheet" href="style.css">
     </head>
 
-    <body>
-        
+    <body id="page-body">
+        <h1>Click button to change color!</h1>
+        <button id="color-change-button">Click Me</button>
+        <form>
+            <label id="type-here-label" for="text-box">Type here:</label><br>
+            <input id="text-box" type="text" name="text-box" maxlength="200" placeholder="Your text here..." required autofocus>
+        </form>
+        <p id="text-display-para"></p>
+        <img id="original-image" src="assets/image1.jpg">
+        <button id="reset-button">Reset</button>
+        <script src="script.js"></script>
     </body>
 </html>
